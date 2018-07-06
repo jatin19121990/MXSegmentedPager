@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <HMSegmentedControl/HMSegmentedControl.h>
+#import "HMSegmentedControl.h"
 #import <MXPagerView/MXPagerView.h>
 #import <MXParallaxHeader/MXParallaxHeader.h>
 

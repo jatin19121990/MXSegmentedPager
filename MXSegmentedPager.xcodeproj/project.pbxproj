@@ -53,6 +53,8 @@
 		9C1633E61DA646CA001FB468 /* MXPagerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1633591DA58D25001FB468 /* MXPagerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C1633E71DA646CA001FB468 /* MXParallaxHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C16335A1DA58D25001FB468 /* MXParallaxHeader.framework */; };
 		9C1633E81DA646CA001FB468 /* MXParallaxHeader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C16335A1DA58D25001FB468 /* MXParallaxHeader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA782BAB20EF411200993C26 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA782BA920EF411200993C26 /* HMSegmentedControl.m */; };
+		BA782BAC20EF411200993C26 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BA782BAA20EF411200993C26 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		9CCDC69D1DA6546E0024337A /* MXSegmentedPager.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MXSegmentedPager.podspec; sourceTree = "<group>"; };
 		9CCDC69E1DA6546E0024337A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CCDC69F1DA657F80024337A /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		BA782BA920EF411200993C26 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		BA782BAA20EF411200993C26 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,8 @@
 		9C16334E1DA589C1001FB468 /* MXSegmentedPager */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BAA20EF411200993C26 /* HMSegmentedControl.h */,
+				BA782BA920EF411200993C26 /* HMSegmentedControl.m */,
 				9C16334F1DA589C1001FB468 /* MXSegmentedPager.h */,
 				9C1633501DA589C1001FB468 /* MXSegmentedPager.m */,
 				9C1633511DA589C1001FB468 /* MXSegmentedPagerController.h */,
@@ -339,6 +345,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA782BAC20EF411200993C26 /* HMSegmentedControl.h in Headers */,
 				9C1633531DA589C1001FB468 /* MXSegmentedPager.h in Headers */,
 				9C16334D1DA5898C001FB468 /* MXSegmentedPager-umbrella.h in Headers */,
 				9C1633551DA589C1001FB468 /* MXSegmentedPagerController.h in Headers */,
@@ -416,7 +423,7 @@
 				TargetAttributes = {
 					9C1632C21DA56C54001FB468 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = C75GEDTP26;
+						DevelopmentTeam = Y98X8JAPH6;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -491,6 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA782BAB20EF411200993C26 /* HMSegmentedControl.m in Sources */,
 				9C1633541DA589C1001FB468 /* MXSegmentedPager.m in Sources */,
 				9C1633561DA589C1001FB468 /* MXSegmentedPagerController.m in Sources */,
 			);
@@ -679,7 +687,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C75GEDTP26;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -705,7 +713,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C75GEDTP26;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
